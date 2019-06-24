@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+
+
+namespace _8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char[] input = Console.ReadLine().ToCharArray();
+            Stack<char> stack = new Stack<char>();
+
+
+           
+
+                for (int i = 0; i < input.Length; i++)
+                {
+
+                    if (i == 0 || stack.Count==0)
+                    {
+                        stack.Push(input[0]);
+                    ;
+                }
+                    else
+                    {
+
+
+                        if (input[i] == ')' && stack.Peek()=='(' 
+                        || input[i] == ']' && stack.Peek() == '['
+                        || input[i] == '}' && stack.Peek() == '{')
+                        {
+                            stack.Pop();
+                        }
+                        else
+                        {
+                            stack.Push(input[i]);
+                        }
+                    //Console.WriteLine(stack.Peek());
+                    }
+                //string str = string.Join("", stack.ToArray());
+                //Console.WriteLine(str);
+            }
+
+            if (stack.Count>0)
+            {
+                Console.WriteLine("NO");
+            }
+            else
+            {
+                Console.WriteLine("YES");
+            }
+        }
+    }
+}
+
