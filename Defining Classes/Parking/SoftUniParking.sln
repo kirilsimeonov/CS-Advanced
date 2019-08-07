@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniParking", "SoftUniParking.csproj", "{FD833A14-F309-43BD-AB5C-88120AA81ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD833A14-F309-43BD-AB5C-88120AA81ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD833A14-F309-43BD-AB5C-88120AA81ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD833A14-F309-43BD-AB5C-88120AA81ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD833A14-F309-43BD-AB5C-88120AA81ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
